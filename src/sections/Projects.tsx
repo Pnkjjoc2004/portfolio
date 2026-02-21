@@ -6,6 +6,7 @@ import aiStartupLandingPage from "@/assets/images/smartcv.png";
 import alseefDoctors from "@/assets/images/alseef-doctors.png";
 import sshTerminal from "@/assets/images/ssh-terminal.png";
 import yourStore from "@/assets/images/your-store.png";
+import pitchPrep from "@/assets/images/pitchPrep.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -46,22 +47,22 @@ const portfolioProjects = [
     image: sshTerminal,
   },
   {
-    company: "Your Store",
-    year: "2025",
-    title: "Your Store - E-commerce",
+    company: "PitchPrep",
+    year: "2026",
+    title: "PitchPrep AI",
     results: [
       {
         title:
-          "Architected a Flutter-based hyperlocal e-commerce application using Clean Architecture and Riverpod for scalable state management",
+          "Architected an AI-powered resume analyzer using Clean Architecture and Riverpod for scalable state management and real-time feedback",
       },
       {
         title:
-          "Implemented secure authentication flows and backend API integration with Firebase for seamless user and order management",
+          "Implemented secure Groq AI API integration and automated PDF parsing for seamless ATS scoring and personalized interview preparation",
       },
     ],
 
     link: "",
-    image: yourStore,
+    image: pitchPrep,
   },
 ];
 
